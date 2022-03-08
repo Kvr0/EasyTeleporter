@@ -1,0 +1,15 @@
+{
+    "parent": "easyteleporter:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "easyteleporter:teleporter"
+        }
+      }
+    },
+    "rewards": {
+      "function": "easyteleporter:craft/_"
+    }
+  }
+  
