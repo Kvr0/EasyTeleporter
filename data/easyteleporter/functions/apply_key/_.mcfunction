@@ -1,6 +1,9 @@
 #> easyteleporter:apply_key/_
 # @within function easyteleporter:_/tick
 
+## Open
+    function calculation:session/open
+
 ## ID
     scoreboard players set $easyteleporter:apply_key/_.oldid temporary 0
     execute store result score $easyteleporter:apply_key/_.oldid temporary run data get entity @s Item.tag.EasyTeleporter.id 1
@@ -13,3 +16,6 @@
 
 ## Effect
     execute unless score $easyteleporter:apply_key/_.oldid temporary = $easyteleporter:apply_key/_.id temporary run function easyteleporter:effect/apply_key
+
+## Close
+    function calculation:session/close
