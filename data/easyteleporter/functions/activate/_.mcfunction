@@ -1,6 +1,9 @@
 #> easyteleporter:activate/_
 # @api
 
+## Open
+    function calculation:session/open
+
 ## ID
     execute store result score $easyteleporter:activate/_.id temporary run data get storage easyteleporter: id 1
 
@@ -22,5 +25,5 @@
 ## Tag
     tag @s remove easyteleporter.target
 
-## Reset
-    function calculation:reset/_
+## Close
+    function calculation:session/close

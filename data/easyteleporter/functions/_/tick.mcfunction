@@ -1,6 +1,9 @@
 #> easyteleporter:_/tick
 # @within tag/function tickmanager:tick
 
+## Open
+    function calculation:session/open
+
 ## Placer
     execute as @e[tag=easyteleporter.placer] at @s run function easyteleporter:place/_
     kill @e[tag=easyteleporter.placer]
@@ -24,5 +27,5 @@
     execute as @a if predicate easyteleporter:unsneak run scoreboard players reset @s easyteleporter.sneak_time
     execute as @a unless predicate easyteleporter:hold_key run scoreboard players reset @s easyteleporter.sneak_time
 
-## リセット
-    function calculation:reset/_
+## Close
+    function calculation:session/close

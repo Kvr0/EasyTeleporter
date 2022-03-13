@@ -1,6 +1,9 @@
 #> easyteleporter:activate/with_key
 # @api
 
+## Open
+    function calculation:session/open
+
 ## Pumpkin Count
     execute store result score $easyteleporter:activate/with_key.count temporary run clear @s pumpkin_pie 0
 
@@ -16,3 +19,6 @@
 
 ## Reset SneakTime
     scoreboard players reset @s easyteleporter.sneak_time
+
+## Close
+    function calculation:session/close

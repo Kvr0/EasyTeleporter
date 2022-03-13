@@ -9,4 +9,4 @@
 
 ## InstallManagerへの登録
     data modify storage installmanager: installed append value EasyTeleporter
-    data modify storage installmanager: relation append value {id:EasyTeleporter,dep:[InstallManager,TickManager]}
+    data modify storage installmanager: relation append value {id:EasyTeleporter,dep:[InstallManager,TickManager,Calculation]}
