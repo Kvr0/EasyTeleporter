@@ -3,7 +3,7 @@
 設定したポイントにスニークで帰還します
 
 ## DL
-[__DownLoad__](https://github.com/Kvr0/EasyTeleporter/releases/download/PreRelease/EasyTeleporter.zip)
+[__DownLoad__](https://github.com/Kvr0/EasyTeleporter/releases/latest/download/EasyTeleporter.zip)
 
 ## 前提データパック
 - [`s4core`](https://github.com/Kvr0/s4core)
